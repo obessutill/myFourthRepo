@@ -1,0 +1,32 @@
+.header__menu-and-logo {
+  @media (min-width: 768px) and (max-width: 1366px) {
+    position: relative;
+  }
+}
+.header__menu-and-logo::after {
+  @media (min-width: 768px) and (max-width: 1366px) {
+    content: '';
+    width: 2px;
+    height: 32px;
+    display: inline-block;
+    background-color: #eaeaea;
+    position: absolute;
+    border-radius: 1px;
+    margin-left: 20px;
+    left: 40px;
+  }
+}
+
+.header__menu-and-logo {
+  .header-button {
+    &:first-child {
+      @media (min-width: 768px) and (max-width: 1366px) {
+        margin-right: 42px;
+      }
+    }
+  }
+}
+
+.header-button--burger {
+    background-image: url('/src/img/burger.svg');
+}

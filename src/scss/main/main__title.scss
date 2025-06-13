@@ -1,0 +1,33 @@
+.main__title {
+    height: 40px;
+    padding-left: 16px;
+    padding-top: 24px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    margin: 0;
+    font-family: "TT Lakes Bold";
+    font-size: 28px;
+    position: relative;
+    letter-spacing: -0.6px;
+    @media (min-width: 768px) and (max-width: 1119px)  {
+        padding-bottom: 32px;
+        padding-left: 24px;
+    }
+    @media (min-width: 1120px) {
+        padding-left: 32px;
+        padding-top: 42px;
+        padding-right: 0;
+        padding-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.main__title::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    left: -1px;
+    border-radius: 3px;
+}

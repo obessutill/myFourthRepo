@@ -1,0 +1,54 @@
+.sidebar__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    a {
+        display: inline-block;
+    }
+}
+
+.sidebar__header-icon {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    &:first-child {
+        margin-right: 16px;
+    }
+    &:hover {
+        opacity: 0.5;
+    }
+    &--back {
+        background: url("/src/img/cancel.svg") no-repeat 0 0;
+    }
+    &--search {
+        background: url('/src/img/search.svg') no-repeat 0 0;
+    }
+}
+
+.sidebar__header-icon:nth-child(1) {
+    @media (min-width: 1365px) {
+        display: none;
+    }
+}
+.sidebar__header-icon:nth-child(3) {
+    @media (width: 360px) {
+        margin-left: auto;
+    }
+    @media (min-width: 1366px) {
+        margin-left: auto;
+    }
+}
+
+.sidebar__header-logo {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 78px;
+    width: 97px;
+    height: 51px;
+    &--logo-icon {
+        background: url("/src/img/logo.svg") no-repeat 0 0;
+    }
+}
+

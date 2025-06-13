@@ -1,0 +1,7 @@
+.nav {
+  &__link, &__link--active {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+  }
+}

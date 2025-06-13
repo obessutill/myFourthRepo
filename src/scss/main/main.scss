@@ -1,0 +1,9 @@
+.main {
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    @media (min-width: 1366px) {
+        margin-left: 306px;
+    }
+}

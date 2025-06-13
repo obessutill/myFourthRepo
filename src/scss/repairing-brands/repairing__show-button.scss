@@ -1,0 +1,30 @@
+.repairing__show-button {
+    list-style: none;
+    font-family: "TT Lakes Regular";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background: none;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 32px;
+    &:before {
+        content: url('/src/img/expand.svg');
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        margin-right: 9px;
+        transition: all 0.5s;
+    }
+    &--hidden {
+        display: none;
+    }
+    &--open::before {
+        transform: rotate(180deg);
+    }
+    @media (min-width: 767px) {
+        margin-bottom: 8px;
+    }
+}

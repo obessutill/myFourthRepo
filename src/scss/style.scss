@@ -1,0 +1,94 @@
+@use './header/header.scss';
+@use './header/header__buttons.scss';
+@use './header/header__container.scss';
+@use './header/header__menu-and-logo.scss';
+@use './header/header__support.scss';
+@use './main/main.scss';
+@use './main/main-content.scss';
+@use './main/main__title.scss';
+@use './main/main__about.scss';
+@use './nav/main__nav.scss';
+@use './nav/nav__item.scss';
+@use './nav/nav__link.scss';
+@use './nav/nav__list.scss';
+@use './sidebar/sidebar.scss';
+@use './sidebar/sidebar__footer.scss';
+@use './sidebar/sidebar__header.scss';
+@use './sidebar/sidebar__menu.scss';
+@use './brands/brands.scss';
+@use './brands/brands__title.scss';
+@use './brands/brands-slider.scss';
+@use './brands/brands-list.scss';
+@use './brands/brands-card.scss';
+@use './brands/swiper-card.scss';
+@use './brands/swiper-pagination.scss';
+@use './brands/show-button.scss';
+@use './brands/swiper.scss';
+@use './repairing-brands/repairing-brands.scss';
+@use './repairing-brands/repairing-brands__title.scss';
+@use './repairing-brands/repairing-brands__slider.scss';
+@use './repairing-brands/repairing-card.scss';
+@use './repairing-brands/repairing-list.scss';
+@use './repairing-brands/repairing-item.scss';
+@use './repairing-brands/repairing__show-button.scss';
+@use './repairing-brands/repairing-service.scss';
+@use './price/price.scss';
+@use './price/price__slider-button.scss';
+@use './price/price__slider-card-item.scss';
+@use './price/price__slider-card.scss';
+@use './price/price__slider-wrapper.scss';
+@use './price/price__slider.scss';
+@use './price/price__title.scss';
+@use './price/price-list.scss';
+@use './price/typeofservice.scss';
+@use './price/price__description.scss';
+@use './footer/footer.scss';
+@use './modals.scss/modal__title.scss';
+@use './modals.scss/modal.scss';
+
+
+
+
+
+
+@font-face {
+  font-family: 'Comic';
+  src: url('../fonts/comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  background-color: #F8F8F8;
+}
+
+@font-face {
+  font-family: 'TT Lakes Regular';
+  src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes Bold';
+  src: url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.blur {
+  filter: blur(6px);
+  pointer-events: none;
+}

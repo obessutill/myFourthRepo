@@ -1,0 +1,15 @@
+.brands-slider {
+    display: none;
+    &__slide {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 36px;
+        margin-right: 0;
+        @media (min-width: 768px) {
+            width: 224px;
+            height: 72px;
+            row-gap: 16px;
+            column-gap: 24px;
+        }
+    }
+}

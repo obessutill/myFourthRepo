@@ -1,0 +1,16 @@
+.brands__title {
+    text-transform: uppercase;
+    color: #7E7E82;
+    font-family: "TT Lakes Regular";
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 16px;
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    @media (min-width: 1366px) {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.price__slider-card {
+    width: 260px;
+    height: 200px;
+    padding: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-areas: 
+    'service service'
+    'price price'
+    'time price-button';
+
+}

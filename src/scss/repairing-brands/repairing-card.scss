@@ -1,0 +1,29 @@
+.repairing-card {
+    width: 240px;
+    height: 160px;
+    box-sizing: border-box;
+    padding: 16px 16px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    margin-left: 16px;
+    &__text {
+        font-family: "TT Lakes Regular";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        margin: 0;
+        margin-bottom: 64px;
+    }
+    &__button-image {
+        margin-left: auto;
+        display: block;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}

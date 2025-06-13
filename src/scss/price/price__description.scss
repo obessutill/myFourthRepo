@@ -1,0 +1,38 @@
+.price__description {
+    margin: 16px 16px 0 16px;
+    padding: 0;
+    max-width: 421px;
+    @media (min-width: 767px) {
+        margin-left: 24px;
+    }
+    &-text {
+        font-family: "TT Lakes Regular";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }
+    &-offer {
+        font-family: "TT Lakes Medium";
+        font-weight: 500;
+        size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        width: 192px;
+        height: 55px;
+        color: black;
+        background-color: #F8F8F8;
+        display: inline-block;
+        &::after {
+            content: '';
+            background-image: url('/src/img/more.svg');
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            margin: 0;
+        }
+        @media (min-width: 767px) {
+            display: inline;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.header__buttons::before {
+  content: '';
+  width: 2px;
+  height: 32px;
+  display: inline-block;
+  background-color: #eaeaea;
+  border-radius: 1px;
+  margin-left: 16px;
+  margin-right: 20px;
+  @media (min-width: 767px) and (max-width: 1119px) {
+    margin-left: 20px;
+  }
+}
+
+.header__buttons--visible-desktop {
+  @media (max-width: 767px) {
+    display: none;
+  }
+  @media (width: 768px) {
+    display: none;
+  }
+  @media (min-width: 767px) and (max-width: 1119px) {
+    display: none;
+  }
+  @media (min-width: 1120px) {
+    display: flex;
+    padding: 0;
+    margin-right: 32px;
+  }
+  @media (min-width: 1120px) and (max-width: 1365px) {
+    display: none;
+  }
+}
+
+.header__buttons--visible-desktop {
+  .header-button {
+    @media (min-width: 1366px) {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 40px 40px;
+    }
+  }
+}
+
+.header__buttons--visible-desktop {
+  .header-button {
+    &:last-child {
+      @media (min-width: 1120px) {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.header__buttons--visible-desktop {
+  .header-button__text {
+    @media (min-width: 1120px) {
+      font-family: 'TT Lakes Regular';
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: -0.2px;
+      line-height: 24px;
+      margin: 0;
+      margin-left: 32px;
+      margin-right: 8px;
+    }
+  }
+}
+
+.header-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 16px; 
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      opacity: 0.5;
+    }
+}
+
+.header-button__container {
+    display: flex;
+    align-items: center;
+   }
+
+.header-button:last-child {
+    margin: 0;
+}
+
+.header-button--checkstatus {
+    background-image: url('/src/img/checkstatus.svg');
+}
+
+.header-button--repair {
+    background-image: url('/src/img/repair.svg');
+}
+

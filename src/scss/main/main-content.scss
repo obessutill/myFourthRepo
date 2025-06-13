@@ -1,0 +1,18 @@
+.main-content {
+    @media (min-width: 768px) and (max-width: 1119px) {
+        display: flex;
+        margin-top: 32px;
+    }
+    @media (min-width: 1120px) {
+        display: flex;
+        margin-top: 7px;
+    }
+}
+
+.main-content__about {
+    @media (min-width: 768px) and (max-width: 1119px) {
+        margin-bottom: 10px;
+        margin-left: 24px;
+        margin-right: 0;
+    }
+}

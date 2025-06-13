@@ -1,0 +1,19 @@
+.nav__item {
+    display: inline-block;
+    flex-shrink: 0;
+    align-content: center;
+    padding: 8px 16px;
+    line-height: 24px;
+}
+.nav__item--active {
+    border: 2px solid #B8FFEC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    background-color: #FFFFFF;
+    @media (max-width: 767px) {
+        margin-left: 16px;
+    }
+    @media (min-width: 1120px) {
+        margin-left: 0;
+    }
+}

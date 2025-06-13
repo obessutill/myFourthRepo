@@ -1,0 +1,30 @@
+.sidebar {
+  width: 320px;
+  height: calc(100% + 20px);
+  position: absolute;
+  padding: 24px;
+  padding-top: 23px;
+  padding-bottom: 32px;
+  box-sizing: border-box;
+  box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
+  background-color: white;
+  z-index: 100;
+  left: -400px;
+  top: 0;
+  transition: all 1s;
+
+  &--open {
+    left: 0
+  }
+
+  @media (width: 360px) {
+    width: 360px;
+  }
+
+  @media (min-width: 1366px) {
+    width: 306px;
+    left: 0;
+    bottom: 0;
+    box-shadow: none;
+  }
+}

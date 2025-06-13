@@ -1,0 +1,67 @@
+.price-list {
+    width: 720px;
+    margin: 0 24px 0 24px;
+    font-family: "TT Lakes Regular";
+    border-collapse: collapse;
+    &__header {
+        line-height: 16px;
+        font-size: 14px;
+        font-weight:  500;
+        color: #7E7E82;
+        &-item {
+            text-align: left;
+            padding: 23px 16px;
+        }
+    }
+    &__row {
+        line-height: 18px;
+        font-size: 14px;
+        font-weight: 400;
+        &-item {
+            background-color: white;
+            padding: 23px 16px;
+            border: none;
+            border-bottom: 1px solid #EAEAEA;
+        }
+    }
+    &__button {
+        margin-left: 4px;
+        @media (min-width: 1366px) {
+            margin-left: auto;
+        } 
+    }
+    &__button:hover {
+        opacity: 0.5;
+    }
+    @media (max-width: 767px) {
+        display: none;
+    }
+    @media (min-width: 1440px) {
+        width: 1056px;
+    }
+}
+
+.price-list__header-item {
+    &:nth-child(1) {
+        padding-right: 0;
+    }
+    &:nth-child(2) {
+        padding-left: 15px;
+    }
+    &:nth-child(3) {
+        padding-left: 15px;
+    }
+}
+
+.price-list__row-item {
+    &:nth-child(1n) {
+        padding-right: 0;
+    } 
+    &:nth-child(3n) {
+        width: 81px;
+    }
+    &:nth-child(4n) {
+        padding: 16px;
+        transition: all 0.3s ease;
+    }
+}

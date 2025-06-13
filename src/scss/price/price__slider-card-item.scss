@@ -1,0 +1,19 @@
+.price__slider-card-item {
+    font-family: 'TT Lakes Regular';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 0;
+    &:nth-child(1) {
+        grid-area: service;
+        width: 228px;
+    }
+    &:nth-child(2) {
+        grid-area: price;
+    }
+    &:nth-child(3) {
+        grid-area: time;
+        width: 81px;
+    }
+}

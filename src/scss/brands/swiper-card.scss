@@ -1,0 +1,20 @@
+.swiper-card {
+    width: 208px;
+    height: 72px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    margin-left: 16px;
+    &__button-image {
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+

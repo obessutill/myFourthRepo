@@ -1,0 +1,8 @@
+.price__slider {
+    margin-left: 8px;
+    &-slide {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 36px; 
+    }
+}
