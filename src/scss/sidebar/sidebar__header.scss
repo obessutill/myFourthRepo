@@ -20,10 +20,10 @@
         opacity: 0.5;
     }
     &--back {
-        background: url("/src/img/cancel.svg") no-repeat 0 0;
+        background: url("../../img/cancel.svg") no-repeat 0 0;
     }
     &--search {
-        background: url('/src/img/search.svg') no-repeat 0 0;
+        background: url('../../img/search.svg') no-repeat 0 0;
     }
 }
 
@@ -48,7 +48,7 @@
     width: 97px;
     height: 51px;
     &--logo-icon {
-        background: url("/src/img/logo.svg") no-repeat 0 0;
+        background: url("../../img/logo.svg") no-repeat 0 0;
     }
 }
 
