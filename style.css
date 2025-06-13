@@ -100,10 +100,10 @@
   margin: 0; }
 
 .header-button--checkstatus {
-  background-image: url("/src/img/checkstatus.svg"); }
+  background-image: url(./static/checkstatus.svg); }
 
 .header-button--repair {
-  background-image: url("/src/img/repair.svg"); }
+  background-image: url(./static/repair.svg); }
 
 @use '../variables' as *;
 .header__container {
@@ -132,7 +132,7 @@
     margin-right: 42px; } }
 
 .header-button--burger {
-  background-image: url("/src/img/burger.svg"); }
+  background-image: url(./static/burger.svg); }
 
 @media (max-width: 767px) {
   .header__support--visible-tablet {
@@ -177,13 +177,13 @@
     background-size: 40px 40px; } }
 
 .support-button--call {
-  background-image: url("/src/img/call.svg"); }
+  background-image: url(./static/call.svg); }
 
 .support-button--chat {
-  background-image: url("/src/img/chat.svg"); }
+  background-image: url(./static/chat.svg); }
 
 .support-button--profile {
-  background-image: url("/src/img/profile.svg"); }
+  background-image: url(./static/profile.svg); }
 
 .support-button:last-child {
   margin-right: 0; }
